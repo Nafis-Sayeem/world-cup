@@ -1,0 +1,171 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
+
+/* watch live button  */
+.watch-live {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.watch-live-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#watch-live-icon {
+    color: white;
+    margin-left: 5px;
+}
+
+/* header text styles  */
+.greatest {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 2em;
+}
+
+.greatest-text {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.header-picture {
+    display: flex;
+    vertical-align: bottom;
+}
+
+
+
+/* main section styles  */
+
+.container-piece-4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: gray;
+}
+
+.container-piece-3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-piece-2 {
+    border: 2px solid rgb(93, 86, 86);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.container-piece-2>a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.container-piece-1>img {
+    width: 100%;
+}
+
+
+.container {
+    margin: 20px;
+}
+
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+/* navigation styles  */
+.nav>a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* aligning navigation bar and main section  */
+.main {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-column-gap: 20px;
+}
+
+/* aligning the body of the page  */
+.main-1 {
+    width: 90%;
+    display: grid;
+    grid-row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* hidden button for tablet  */
+.tab-button {
+    height: 50px;
+    border-radius: 10px;
+    background-color: darkred;
+    width: 150px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-button>a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* footer design  */
